@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const INVENTORY_SERVICE_URL = process.env.INVENTORY_SERVICE_URL || 'http://localhost:3003';
+const INVENTORY_SERVICE_URL = process.env.INVENTORY_SERVICE_URL || 'http://localhost:3004';
 
 /**
  * Reserve inventory for a product.

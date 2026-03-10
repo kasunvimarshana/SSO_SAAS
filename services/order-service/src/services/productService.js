@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const PRODUCT_SERVICE_URL = process.env.PRODUCT_SERVICE_URL || 'http://localhost:3002';
+const PRODUCT_SERVICE_URL = process.env.PRODUCT_SERVICE_URL || 'http://localhost:3003';
 
 /**
  * Fetch product details by ID from the Product Service.
